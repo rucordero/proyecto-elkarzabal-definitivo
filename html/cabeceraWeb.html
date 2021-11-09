@@ -1,0 +1,21 @@
+<script src="js/comprobarUsuario.js"></script>
+<script src="js/desplazamientoMenu.js"></script>
+
+<div id="contenedorCabecera">
+    <div id="contenedorCabecera-Sup">
+        <div id="logotipoCabecera"><a href="index.html"><img id="logotipo" src="./images/logo-elkarzabal.svg"></a></div>
+        <div id="iconoAdmin"></div>
+    </div>
+    <div id="contenedorCabecera-Menu">
+        <ul class="lista">
+            <a href=""><li class="separacion1 componente-lista">Quiénes somos</li></a>
+            <a href=""><li class="separacion componente-lista">Nuestras instalaciones</li></a>
+            <a href=""><li class="separacion componente-lista">Haz tu pedido</li></a>
+            <a href=""><li class="separacion componente-lista">Contacto</li></a>
+        </ul>
+    </div>
+    <div id="iconoBarras">
+        <a onclick=" let estado = comprobarEstado(); if(estado){
+            extenderMenuWeb();} else{encogerMenuWeb();};return false;" href=""><img id="imgCamb2" class="eImg2" src="./images/barras.svg"></a>
+    </div>
+</div>
