@@ -3,4 +3,5 @@ $(document).ready(function(){
     $("#cabecera").load("html/cabeceraWeb.html");  
     $("#ventanaModal").load("html/modalInicioSesion.html");  
     $("#ventanaModalUsuario").load("html/modalUsuario.html");   
+    $("#contenedorSlider").load("html/slider.html");  
 })

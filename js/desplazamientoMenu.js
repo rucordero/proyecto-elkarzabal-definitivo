@@ -39,7 +39,7 @@ function encoger() {
 function extenderMenuWeb() {
     let div2 = document.getElementById("contenedorCabecera-Menu");
     div2.style.transitionDuration = "0.7s";
-    div2.style.transform = "translate(0,250px)";
+    div2.style.transform = "translate(0,280px)";
     document.getElementById("imgCamb2").src = "./images/close.svg";
     estado = false;
 }
